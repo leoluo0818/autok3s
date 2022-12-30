@@ -61,7 +61,7 @@ function lint() {
 }
 
 function build() {
-  [[ "${1:-}" != "only" ]] && lint
+  # [[ "${1:-}" != "only" ]] && lint
   ui
   go_generate
   autok3s::log::info "building autok3s(${GIT_VERSION},${GIT_COMMIT},${GIT_TREE_STATE},${BUILD_DATE})..."

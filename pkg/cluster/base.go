@@ -31,7 +31,7 @@ import (
 const (
 	k3sVersion          = ""
 	k3sChannel          = "stable"
-	k3sInstallScript    = "https://get.k3s.io"
+	k3sInstallScript    = "https://raw.githubusercontent.com/leoluo0818/autok3s/master/k3s-install.sh"
 	master              = "0"
 	worker              = "0"
 	ui                  = false

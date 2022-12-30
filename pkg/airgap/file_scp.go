@@ -246,7 +246,7 @@ func parseUnameArch(output string) string {
 	switch output {
 	case "x86_64":
 		return "amd64"
-	case "aarh64":
+	case "aarch64":
 		return "arm64"
 	case "armv7l":
 		return "arm"

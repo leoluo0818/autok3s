@@ -91,7 +91,7 @@ set -o noglob
 #     Channel to use for fetching k3s download URL.
 #     Defaults to 'stable'.
 INSTALL_K3S_SKIP_SELINUX_RPM=true
-INSTALL_K3S_SELINUX_WARN=false
+INSTALL_K3S_SELINUX_WARN=true
 GITHUB_URL=https://github.com/k3s-io/k3s/releases
 STORAGE_URL=https://k3s-ci-builds.s3.amazonaws.com
 DOWNLOADER=
